@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "XMediatorPangle", targets: ["XMediatorPangleTarget"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/bytedance/AdsGlobalPackage.git", exact: "8.3.0-release.9"),
+        .package(url: "https://github.com/bytedance/AdsGlobalPackage.git", exact: "8.4.0-release.7"),
         .package(url: "https://github.com/x3mads/xmediator-swift-package.git", .upToNextMajor(from: "1.145.0")),
     ],
     targets: [
@@ -24,8 +24,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "XMediatorPangle",
-            url: "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorPangle/XMediatorPangle-8.3.0.9.0.zip",
-            checksum: "e8328f6a60e16aefe579a5ed5545bc7761030acabb2d88875a519660c03f1c19"
+            url: "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorPangle/XMediatorPangle-8.4.0.7.0.zip",
+            checksum: "c69e8cd6c18f031d50c90aa627a3911eb7a1a502784e5d91fd8af83c45840c1a"
         ),
     ]
 )
