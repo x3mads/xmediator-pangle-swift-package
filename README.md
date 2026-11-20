@@ -18,7 +18,7 @@ To integrate `XMediatorPangle` into your Xcode project using Swift Package Manag
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/x3mads/xmediator-pangle-swift-package", exact: "8.4.00700")
+    .package(url: "https://github.com/x3mads/xmediator-pangle-swift-package", exact: "8.4.00800")
 ]
 ```
 
